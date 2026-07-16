@@ -1,8 +1,13 @@
 body{
-    background:#0f172a;
-    color:white;
-    font-family:Arial;
-    text-align:center;
+    
+    text-align:center; background-image: url("image.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+    color:black;
+    font-family: Arial, sans-serif;
 }
 
 h1{
