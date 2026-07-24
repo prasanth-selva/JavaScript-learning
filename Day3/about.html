@@ -3,24 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About page for the responsive Campus Connect college project.">
+    <title>Campus Connect | About</title>
     <link rel="stylesheet" href="style.css">
-
-    <title>About</title>
 </head>
 <body>
-    <h1>About</h1>
-    <p>Welcome to the about page!!!</p>
+    <header class="site-header">
+        <div class="container header-bar">
+            <div>
+                <p class="eyebrow">College Assignment</p>
+                <h1 class="site-title">Campus Connect</h1>
+            </div>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-    <button onclick="back()">Home</button>
-    <button onclick="contact()">Contact</button>
-    <script>
-        function back(){
-            window.location.href ="index.html";
-        }
+    <main>
+        <section class="page-banner">
+            <div class="container">
+                <p class="eyebrow">About the website</p>
+                <h2>Built as a neat HTML and CSS practice project.</h2>
+                <p>
+                    This website demonstrates a simple multi-page structure with clean sections, consistent styling,
+                    and a layout that works well on different screen sizes.
+                </p>
+            </div>
+        </section>
 
-        function contact(){
-            window.location.href ="contact.html";
-        }
-    </script>
+        <section class="container content-section">
+            <div class="section-heading">
+                <p class="eyebrow">Mission and objectives</p>
+                <h2>What this project is meant to show</h2>
+            </div>
+
+            <div class="grid two-column-grid">
+                <article class="card">
+                    <h3>Mission</h3>
+                    <p>
+                        To present information in a clear, organized way while keeping the website visually pleasant
+                        and easy to navigate for users.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Objectives</h3>
+                    <p>
+                        To use semantic HTML, an external stylesheet, responsive design, and a consistent interface
+                        across all pages.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="container content-section">
+            <div class="section-heading">
+                <p class="eyebrow">Features</p>
+                <h2>Simple card-style layout</h2>
+            </div>
+
+            <div class="grid feature-grid">
+                <article class="feature-card">
+                    <h3>Modern Layout</h3>
+                    <p>Balanced spacing, rounded corners, and subtle shadows create a polished look.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Responsive Design</h3>
+                    <p>Columns stack neatly on smaller screens to maintain readability and usability.</p>
+                </article>
+                <article class="feature-card">
+                    <h3>Consistent Navigation</h3>
+                    <p>The same header and footer appear on every page for a unified website structure.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Campus Connect. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>

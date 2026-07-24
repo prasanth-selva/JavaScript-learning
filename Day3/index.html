@@ -1,28 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Day3 Learning</title>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <h1>Day3 Making pages in Javascript learning</h1>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A responsive multi-page college website built with HTML5 and CSS3.">
+    <title>Campus Connect | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-bar">
+            <div>
+                <p class="eyebrow">College Assignment</p>
+                <h1 class="site-title">Campus Connect</h1>
+            </div>
+            <nav class="site-nav" aria-label="Primary navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
 
-        <button onclick="about()">About</button>
+    <main>
+        <section class="hero">
+            <div class="container hero-grid">
+                <article class="hero-content">
+                    <p class="eyebrow">Welcome to our website</p>
+                    <h2>Simple, modern, and responsive HTML5 and CSS3 design.</h2>
+                    <p>
+                        Campus Connect is a clean multi-page website built for a college assignment.
+                        It shows semantic structure, responsive layout, and polished styling using only HTML and CSS.
+                    </p>
+                    <a href="about.html" class="button primary-button">Learn More</a>
+                </article>
 
+                <aside class="hero-panel" aria-label="Website highlights">
+                    <div class="stat-card">
+                        <h3>Responsive Layout</h3>
+                        <p>Adapts smoothly across desktop, tablet, and mobile screens.</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>Semantic Markup</h3>
+                        <p>Uses header, nav, main, section, article, and footer tags properly.</p>
+                    </div>
+                </aside>
+            </div>
+        </section>
 
-        <button onclick="contact()">Contact</button>
+        <section class="container content-section">
+            <div class="section-heading">
+                <p class="eyebrow">About this project</p>
+                <h2>Designed to look intermediate and professional</h2>
+            </div>
 
+            <div class="grid two-column-grid">
+                <article class="card">
+                    <h3>Clean Presentation</h3>
+                    <p>
+                        The layout uses a blue, white, and light gray palette with rounded cards, spacing,
+                        and consistent typography for a neat student project appearance.
+                    </p>
+                </article>
+                <article class="card">
+                    <h3>Easy Navigation</h3>
+                    <p>
+                        A horizontal navigation bar keeps the three pages connected so users can move through the
+                        website quickly and comfortably.
+                    </p>
+                </article>
+            </div>
+        </section>
+    </main>
 
-        <script>
-            function about(){
-                window.location.href ="about.html";
-            }
-
-            function contact(){
-                window.location.href="contact.html";
-            }
-        </script>
-    </body>
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Campus Connect. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
 </html>
