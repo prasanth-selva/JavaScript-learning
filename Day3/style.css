@@ -11,7 +11,9 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #1f2a44;
-    background: #f4f7fb;
+    background:
+        linear-gradient(rgba(244, 247, 251, 0.88), rgba(244, 247, 251, 0.88)),
+        url("image.jpeg") center center / cover fixed no-repeat;
     line-height: 1.6;
 }
 
