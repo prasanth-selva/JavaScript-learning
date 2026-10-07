@@ -1,0 +1,314 @@
+1.
+Question 1
+What is a primary consideration when choosing between COTS and third-party software?
+
+ 
+
+Security implications and compliance requirements.
+
+The popularity of the software among developers.
+
+The aesthetic design of the software interface.
+
+The age of the software.
+
+1 point
+2.
+Question 2
+What is a primary benefit of integrating security into DevSecOps?
+
+ 
+
+Increased automation of security processes
+
+Better incident response capabilities
+
+Enhanced collaboration between development and operations teams
+
+Reduced software development costs
+
+1 point
+3.
+Question 3
+Which of the following practices are essential for mitigating programming language security risks? Select all that apply.
+
+ 
+
+Secure coding practices
+
+Use of high cohesion and low coupling
+
+Team collaboration
+
+Input validation
+
+Zero trust access control
+
+1 point
+4.
+Question 4
+Which factors should be considered when evaluating the security of open source software? Select all that apply.
+
+ 
+
+Frequency of updates and patches
+
+Licensing compliance
+
+Cost of the software
+
+Vulnerability history
+
+Popularity of the software
+
+1 point
+5.
+Question 5
+What is the significance of high cohesion in software development?
+
+ 
+
+It ensures that different parts of a software system can be developed and updated independently.
+
+It increases the number of dependencies between different modules.
+
+It facilitates easier maintenance and readability of the code.
+
+It allows for better resource allocation among different teams.
+
+1 point
+6.
+Question 6
+Which practices are essential for maintaining secure APIs? Select all that apply.
+
+ 
+
+Implementing strong authentication and authorization.
+
+Implementing detailed error handling mechanisms.
+
+Ignoring input validation to speed up development.
+
+Encrypting data in transit and at rest.
+
+Using hard-coded credentials for convenience.
+
+1 point
+7.
+Question 7
+What is one of the key benefits of automated testing in secure software development?
+
+ 
+
+Increases the speed and efficiency of identifying vulnerabilities
+
+Ensures compliance with all security standards
+
+Removes the necessity for secure coding practices
+
+Eliminates the need for manual code reviews
+
+1 point
+8.
+Question 8
+What is a primary benefit of continuous integration and continuous deployment (CI/CD) in software development?
+
+ 
+
+Reducing the need for collaboration among team members
+
+Enabling faster feedback and quicker release cycles
+
+Ensuring that all security vulnerabilities are automatically fixed
+
+Increasing manual testing efforts
+
+1 point
+9.
+Question 9
+What is the primary purpose of software configuration management (SCM)?
+
+ 
+
+To automate the software testing process
+
+To integrate security measures into the software
+
+To track and control changes in the software
+
+To manage the deployment of software to different environments
+
+1 point
+10.
+Question 10
+Which of the following are key considerations for using third-party software in secure software development? Select all that apply.
+
+ 
+
+Marketing strategies of the vendor
+
+Vulnerability history
+
+Code readability and commenting style
+
+Licensing and compliance issues
+
+Update and patch management
+
+1 point
+11.
+Question 11
+Which of the following is a key principle of Agile methodologies?
+
+ 
+
+Minimal collaboration between team members.
+
+Continuous feedback loops for iterative improvement.
+
+Strict adherence to initial project plans.
+
+Infrequent delivery of project updates.
+
+1 point
+12.
+Question 12
+Which principle is essential for ensuring that different parts of a software system can be developed and updated independently?
+
+ 
+
+Continuous integration
+
+Low coupling
+
+High cohesion
+
+Code refactoring
+
+1 point
+13.
+Question 13
+Which of the following are essential practices for secure software configuration management (SCM)? Select all that apply.
+
+ 
+
+Regularly auditing configurations
+
+Implementing automated configuration management tools
+
+Maintaining version control
+
+Ignoring environment-specific settings
+
+Using default settings for all environments
+
+1 point
+14.
+Question 14
+Which of the following are key considerations for using a managed cloud service? Select all that apply.
+
+ 
+
+High cohesion and low coupling
+
+Incident response capabilities
+
+Scalability
+
+Manual code reviews
+
+Security features
+
+1 point
+15.
+Question 15
+What is a key advantage of the iterative model in software development?
+
+ 
+
+Allows for continuous feedback and improvement
+
+Ensures that all requirements are gathered at the beginning
+
+Reduces the need for testing phases
+
+Eliminates the need for detailed documentation
+
+1 point
+16.
+Question 16
+What is the primary purpose of implementing high cohesion in software design?
+
+ 
+
+To reduce the lines of code
+
+To improve the maintainability of the code
+
+To enhance the performance of the software
+
+To increase the dependencies between modules
+
+1 point
+17.
+Question 17
+Which of the following is a critical aspect of the shared responsibility model in cloud computing?
+
+ 
+
+The cloud provider manages the physical infrastructure while the user manages data security.
+
+The cloud provider is responsible for application-level security.
+
+The user is solely responsible for physical security measures.
+
+The user manages network infrastructure while the cloud provider manages data integrity.
+
+1 point
+18.
+Question 18
+What is the role of software composition analysis in application security testing?
+
+ 
+
+To improve code readability and maintainability
+
+To enhance performance optimization and reduce resource usage
+
+To identify and mitigate vulnerabilities in third-party and open-source components
+
+To automate the deployment and integration process
+
+1 point
+19.
+Question 19
+Which measures are crucial for securing APIs? Select all that apply.
+
+ 
+
+Implementing strong authentication and authorization
+
+Disabling logging and monitoring
+
+Using simple and predictable API keys
+
+Validating input data
+
+Encrypting data transmitted via the API
+
+1 point
+20.
+Question 20
+What is a key advantage of implementing high cohesion in software design?
+
+ 
+
+Improving code readability and maintainability
+
+Increasing the complexity of the software system
+
+Improving hardware performance
+
+Ensuring that different parts of the software are highly interdependent
+
+1 point
